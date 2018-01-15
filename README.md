@@ -12,7 +12,7 @@ You can load the module for a once-off test by executing `sudo insmod capa110dio
 
 To confirm that the module has loaded correctly, run `lsmod` and check the listing for `capa110dio`. Additionally you can test that the device file has been created by running `ls -la /dev/axdio`.
 
-**Note:** You may note that the device file is created with only +rw permissions to root. Extending read/write permissions to other users is covered in the section **udev Configuration**.
+**Note:** You may note that the device file is created with only +rw permissions to root. Extending read/write permissions to other users is covered in the section [udev Configuration](#udev-configuration).
 
 To unload the module, execute `sudo rmmod capa110dio`.
 
