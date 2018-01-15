@@ -1,6 +1,0 @@
-before_install:
-  - sudo apt-get install -y linux-headers-generic
-language: c
-compiler: gcc
-script: make
-
