@@ -1,0 +1,1 @@
+KERNEL=="axdio", SUBSYSTEM=="axdio", MODE="0666"
